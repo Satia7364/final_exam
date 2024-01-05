@@ -140,10 +140,10 @@ def main():
             if operation == "1":
                 found_airpass.pass_info() #呼叫輸出所有資料的副函式
             elif operation == "2":
-                found_airpass.pass_info() #呼叫修改資料的副函式
-                print("---------------------------------------")
+                found_airpass.modify()
+
                 print("登機證資料已更新")
-                found_airpass.pass_info() #呼叫輸出資料的副函式
+                found_airpass.pass_info() 
             else:
                 print("無效的選擇")
 
